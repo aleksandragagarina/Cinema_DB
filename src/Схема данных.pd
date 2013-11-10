@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel datamodelDbId="null">
+  <fieldsEntity entityHeight="89" entityIconified="false" entityId="138402282708821" entityLocationX="505" entityLocationY="315" entityWidth="150" tableName="Прокат"/>
+  <fieldsEntity entityHeight="81" entityIconified="false" entityId="138286957338383" entityLocationX="718" entityLocationY="27" entityWidth="150" tableName="Актеры"/>
+  <fieldsEntity entityHeight="116" entityIconified="false" entityId="138286736950927" entityLocationX="741" entityLocationY="130" entityWidth="161" tableName="Залы"/>
+  <fieldsEntity entityHeight="106" entityIconified="false" entityId="138402254298428" entityLocationX="51" entityLocationY="26" entityWidth="150" tableName="Жанр"/>
+  <fieldsEntity entityHeight="133" entityIconified="false" entityId="138286831976459" entityLocationX="520" entityLocationY="113" entityWidth="150" tableName="Сеансы"/>
+  <fieldsEntity entityHeight="188" entityIconified="false" entityId="138286844493478" entityLocationX="253" entityLocationY="43" entityWidth="178" tableName="Фильмы"/>
+  <fieldsEntity entityHeight="151" entityIconified="false" entityId="138286708294953" entityLocationX="730" entityLocationY="270" entityWidth="150" tableName="Кинотеатры"/>
+  <fieldsEntity entityHeight="80" entityIconified="false" entityId="138286951056629" entityLocationX="508" entityLocationY="26" entityWidth="150" tableName="Участие"/>
+</datamodel>
