@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="199px" prefWidth="346px">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="36px" prefWidth="240px" text="Введите название награды:" type="LabelDesignInfo">
+    <constraints height="36px" left="60px" top="24px" type="MarginConstraintsDesignInfo" width="240px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget name="textField" parent="Form" prefHeight="20px" prefWidth="252px" type="TextFieldDesignInfo">
+    <constraints height="20px" left="48px" top="84px" type="MarginConstraintsDesignInfo" width="252px"/>
+  </widget>
+  <widget actionPerformed="btnAddActionPerformed" name="btnAdd" parent="Form" prefHeight="23px" prefWidth="96px" text="Добавить" type="ButtonDesignInfo">
+    <constraints bottom="35px" height="23px" left="120px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

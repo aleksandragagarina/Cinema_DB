@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="488px" prefWidth="421px">
+  <widget name="label" parent="Form" prefHeight="14px" prefWidth="84px" text="Введите дату:" type="LabelDesignInfo">
+    <constraints height="14px" left="12px" top="50px" type="MarginConstraintsDesignInfo" width="84px"/>
+    <easFont name="Tahoma"/>
+  </widget>
+  <widget format="#,##0" name="formattedField" parent="Form" prefHeight="20px" prefWidth="40px" type="FormattedFieldDesignInfo" valueType="0">
+    <constraints height="20px" left="120px" top="48px" type="MarginConstraintsDesignInfo" width="40px"/>
+  </widget>
+  <widget format="#,##0" name="formattedField1" parent="Form" prefHeight="20px" prefWidth="40px" type="FormattedFieldDesignInfo" valueType="0">
+    <constraints height="20px" left="180px" top="48px" type="MarginConstraintsDesignInfo" width="40px"/>
+  </widget>
+  <widget format="#,##0" name="formattedField2" parent="Form" prefHeight="20px" prefWidth="60px" type="FormattedFieldDesignInfo" valueType="0">
+    <constraints height="20px" left="240px" top="48px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="label1" parent="Form" prefHeight="14px" prefWidth="28px" text="День" type="LabelDesignInfo">
+    <constraints height="14px" left="124px" top="36px" type="MarginConstraintsDesignInfo" width="28px"/>
+  </widget>
+  <widget name="label2" parent="Form" prefHeight="14px" prefWidth="36px" text="Месяц" type="LabelDesignInfo">
+    <constraints height="14px" left="184px" top="36px" type="MarginConstraintsDesignInfo" width="36px"/>
+  </widget>
+  <widget name="label3" parent="Form" prefHeight="14px" prefWidth="28px" text="Год" type="LabelDesignInfo">
+    <constraints height="14px" left="260px" top="36px" type="MarginConstraintsDesignInfo" width="28px"/>
+  </widget>
+  <widget name="label4" parent="Form" prefHeight="14px" prefWidth="96px" text="Выберите жанр:" type="LabelDesignInfo">
+    <constraints height="14px" left="168px" top="82px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget name="modelCombo" parent="Form" prefHeight="20px" prefWidth="204px" type="DbComboDesignInfo">
+    <constraints height="20px" left="108px" top="96px" type="MarginConstraintsDesignInfo" width="204px"/>
+  </widget>
+  <widget mouseClicked="radioButtonMouseClicked" name="radioButton" parent="Form" prefHeight="23px" prefWidth="96px" selected="true" text="до 12:00" type="RadioDesignInfo">
+    <constraints height="23px" left="156px" top="156px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget name="radioButton1" parent="Form" prefHeight="23px" prefWidth="96px" selected="true" text="12:00 - 18:00" type="RadioDesignInfo">
+    <constraints height="23px" left="156px" top="180px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget name="radioButton2" parent="Form" prefHeight="23px" prefWidth="96px" selected="true" text="после 18:00" type="RadioDesignInfo">
+    <constraints height="23px" left="156px" top="204px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <widget name="label5" parent="Form" prefHeight="14px" prefWidth="96px" text="Выберите сеанс:" type="LabelDesignInfo">
+    <constraints height="14px" left="12px" top="156px" type="MarginConstraintsDesignInfo" width="96px"/>
+    <easFont name="Tahoma"/>
+  </widget>
+  <widget deletable="false" editable="false" insertable="false" name="modelGrid" parent="Form" prefHeight="180px" prefWidth="348px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="Фильм">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138741038509862" fieldName="НАЗВАНИЕ"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Кинотеатр">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138741038509862" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Сеанс">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138741038509862" fieldName="ДАТА"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138741038509862" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="180px" left="36px" top="240px" type="MarginConstraintsDesignInfo" width="348px"/>
+  </widget>
+  <widget name="label6" parent="Form" prefHeight="26px" prefWidth="204px" text="Фильмы по дате и жанру" type="LabelDesignInfo">
+    <constraints height="26px" left="108px" top="0px" type="MarginConstraintsDesignInfo" width="204px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget name="button" parent="Form" prefHeight="23px" prefWidth="120px" text="ОК" type="ButtonDesignInfo">
+    <constraints bottom="21px" height="23px" left="144px" type="MarginConstraintsDesignInfo" width="120px"/>
+  </widget>
+  <widget name="button1" parent="Form" prefHeight="72px" prefWidth="84px" text="Показать" type="ButtonDesignInfo">
+    <constraints height="72px" right="13px" top="48px" type="MarginConstraintsDesignInfo" width="84px"/>
+  </widget>
+  <nonvisual name="buttonGroup" type="ButtonGroupDesignInfo"/>
+  <nonvisual name="buttonGroup1" type="ButtonGroupDesignInfo"/>
+  <nonvisual name="buttonGroup2" type="ButtonGroupDesignInfo"/>
+  <nonvisual name="buttonGroup3" type="ButtonGroupDesignInfo"/>
+  <nonvisual name="buttonGroup4" type="ButtonGroupDesignInfo"/>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

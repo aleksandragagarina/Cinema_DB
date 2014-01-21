@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="322px" prefWidth="396px">
+  <widget name="label" parent="Form" prefHeight="36px" prefWidth="144px" text="Жанры фильма" type="LabelDesignInfo">
+    <constraints height="36px" left="144px" top="12px" type="MarginConstraintsDesignInfo" width="144px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget horizontalAlignment="0" name="label1" parent="Form" prefHeight="24px" prefWidth="348px" text="&quot;название фильма&quot;" type="LabelDesignInfo">
+    <constraints height="24px" left="24px" top="48px" type="MarginConstraintsDesignInfo" width="348px"/>
+    <easFont name="Tahoma" size="18" style="1"/>
+  </widget>
+  <widget actionPerformed="btnAddActionPerformed" name="btnAdd" parent="Form" prefHeight="23px" prefWidth="131px" text="Добавить" type="ButtonDesignInfo">
+    <constraints height="23px" left="48px" top="84px" type="MarginConstraintsDesignInfo" width="131px"/>
+  </widget>
+  <widget actionPerformed="btnDeleteActionPerformed" name="btnDelete" parent="Form" prefHeight="23px" prefWidth="131px" text="Удалить" type="ButtonDesignInfo">
+    <constraints height="23px" right="49px" top="84px" type="MarginConstraintsDesignInfo" width="131px"/>
+  </widget>
+  <widget actionPerformed="btnBackActionPerformed" name="btnBack" parent="Form" prefHeight="23px" prefWidth="95px" text="ОК" type="ButtonDesignInfo">
+    <constraints bottom="11px" height="23px" right="13px" type="MarginConstraintsDesignInfo" width="95px"/>
+  </widget>
+  <widget deletable="false" editable="false" insertable="false" name="modelGrid" parent="Form" prefHeight="144px" prefWidth="180px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="Название">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138705710016516" fieldName="НАЗВАНИЕ"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138705710016516" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="144px" left="108px" top="120px" type="MarginConstraintsDesignInfo" width="180px"/>
+  </widget>
+  <widget actionPerformed="btnPrevActionPerformed" name="btnPrev" parent="Form" prefHeight="36px" prefWidth="50px" text="-" type="ButtonDesignInfo">
+    <constraints height="36px" right="48px" top="120px" type="MarginConstraintsDesignInfo" width="50px"/>
+    <easFont name="Tahoma" size="18" style="1"/>
+  </widget>
+  <widget actionPerformed="btnNextActionPerformed" name="btnNext" parent="Form" prefHeight="36px" prefWidth="50px" text="+" type="ButtonDesignInfo">
+    <constraints height="36px" right="48px" top="168px" type="MarginConstraintsDesignInfo" width="50px"/>
+    <easFont name="Tahoma" size="18" style="1"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

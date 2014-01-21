@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="фильм_по_дате_и_жанру" Title="Фильм_по_дате_и_жанру" entityHeight="200" entityIconified="false" entityId="138741038509862" entityLocationX="209" entityLocationY="16" entityWidth="150" queryId="Фильм_по_дате_и_жанру" tableName="" tableSchemaName=""/>
+</datamodel>

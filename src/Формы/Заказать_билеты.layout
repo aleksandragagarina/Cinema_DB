@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="436px" prefWidth="481px">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="24px" prefWidth="204px" text="Заказ билетов" type="LabelDesignInfo">
+    <constraints height="24px" left="120px" top="12px" type="MarginConstraintsDesignInfo" width="204px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget handleFunction="modelComboOnRender" name="modelCombo" parent="Form" prefHeight="20px" prefWidth="180px" type="DbComboDesignInfo">
+    <valueField entityId="138731902313539" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+    <displayField entityId="138731902313539" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+    <datamodelElement entityId="138731900796504" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+    <constraints height="20px" left="132px" top="60px" type="MarginConstraintsDesignInfo" width="180px"/>
+  </widget>
+  <widget handleFunction="modelCombo1OnRender" name="modelCombo1" parent="Form" prefHeight="20px" prefWidth="180px" type="DbComboDesignInfo">
+    <valueField entityId="138731959343359" fieldName="НАИМЕНОВАНИЕ"/>
+    <displayField entityId="138731959343359" fieldName="НАИМЕНОВАНИЕ"/>
+    <datamodelElement entityId="138731959343359" fieldName="НАИМЕНОВАНИЕ"/>
+    <constraints height="20px" left="132px" top="108px" type="MarginConstraintsDesignInfo" width="180px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="label1" parent="Form" prefHeight="14px" prefWidth="144px" text="Выберите кинотеатр:" type="LabelDesignInfo">
+    <constraints height="14px" left="148px" top="44px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="label2" parent="Form" prefHeight="14px" prefWidth="108px" text="Выберите зал:" type="LabelDesignInfo">
+    <constraints height="14px" left="168px" top="96px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="label4" parent="Form" prefHeight="14px" prefWidth="168px" text="Введите количество билетов:" type="LabelDesignInfo">
+    <constraints bottom="93px" height="14px" left="36px" type="MarginConstraintsDesignInfo" width="168px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="132px" text="Заказать!" type="ButtonDesignInfo">
+    <constraints bottom="48px" height="23px" left="156px" type="MarginConstraintsDesignInfo" width="132px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="23px" prefWidth="95px" text="Назад" type="ButtonDesignInfo">
+    <constraints bottom="12px" height="23px" right="17px" type="MarginConstraintsDesignInfo" width="95px"/>
+  </widget>
+  <widget actionPerformed="button2ActionPerformed" name="button2" parent="Form" prefHeight="36px" prefWidth="50px" text="-" type="ButtonDesignInfo">
+    <constraints height="36px" right="28px" top="144px" type="MarginConstraintsDesignInfo" width="50px"/>
+    <easFont name="Tahoma" size="18" style="1"/>
+  </widget>
+  <widget actionPerformed="button3ActionPerformed" name="button3" parent="Form" prefHeight="36px" prefWidth="50px" text="+" type="ButtonDesignInfo">
+    <constraints height="36px" right="28px" top="192px" type="MarginConstraintsDesignInfo" width="50px"/>
+    <easFont name="Tahoma" size="18" style="1"/>
+  </widget>
+  <widget name="formattedField" parent="Form" prefHeight="20px" prefWidth="132px" type="FormattedFieldDesignInfo">
+    <constraints bottom="90px" height="20px" left="204px" type="MarginConstraintsDesignInfo" width="132px"/>
+  </widget>
+  <widget deletable="false" editable="false" insertable="false" name="modelGrid" parent="Form" prefHeight="174px" prefWidth="349px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="Фильм">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138731948852296" fieldName="НАЗВАНИЕ"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Сеанс">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138731948852296" fieldName="ДАТА"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Места">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138731948852296" fieldName="СВОБ_МЕСТ"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138731948852296" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="174px" left="37px" top="140px" type="MarginConstraintsDesignInfo" width="349px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

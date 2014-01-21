@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="352px" prefWidth="825px">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="32px" prefWidth="186px" text="Все фильмы" type="LabelDesignInfo">
+    <constraints height="32px" left="286px" top="10px" type="MarginConstraintsDesignInfo" width="186px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="130px" text="Добавить" type="ButtonDesignInfo">
+    <constraints height="23px" left="161px" top="66px" type="MarginConstraintsDesignInfo" width="130px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="23px" prefWidth="122px" text="Редактировать" type="ButtonDesignInfo">
+    <constraints height="23px" left="319px" top="66px" type="MarginConstraintsDesignInfo" width="122px"/>
+  </widget>
+  <widget actionPerformed="button2ActionPerformed" name="button2" parent="Form" prefHeight="23px" prefWidth="126px" text="Удалить" type="ButtonDesignInfo">
+    <constraints height="23px" left="475px" top="66px" type="MarginConstraintsDesignInfo" width="126px"/>
+  </widget>
+  <widget deletable="false" editable="false" insertable="false" name="modelGrid" parent="Form" prefHeight="170px" prefWidth="701px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="ID">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138766848083441" fieldName="ФИЛЬМЫ_ID"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Название">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138766848083441" fieldName="НАЗВАНИЕ"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Режиссер">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138766848083441" fieldName="РЕЖИССЕР"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Оператор">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138766848083441" fieldName="ОПЕРАТОР"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Производство">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138766848083441" fieldName="ПРОИЗВОДСТВО"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Сборы">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138766848083441" fieldName="ПРОКАТ_СТОИМОСТЬ"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Постер">
+      <controlInfo classHint="DbImageDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138766848083441" fieldName="ПОСТЕР"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Продолжительность">
+      <controlInfo classHint="DbSpinDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138766848083441" fieldName="ПРОДОЛЖИТЕЛЬНОСТЬ"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138766848083441" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="170px" left="42px" top="100px" type="MarginConstraintsDesignInfo" width="701px"/>
+  </widget>
+  <widget actionPerformed="button3ActionPerformed" name="button3" parent="Form" prefHeight="23px" prefWidth="99px" text="Назад" type="ButtonDesignInfo">
+    <constraints bottom="16px" height="23px" left="330px" type="MarginConstraintsDesignInfo" width="99px"/>
+  </widget>
+  <widget actionPerformed="button4ActionPerformed" name="button4" parent="Form" prefHeight="50px" prefWidth="50px" text="-" type="ButtonDesignInfo">
+    <constraints height="50px" right="12px" top="106px" type="MarginConstraintsDesignInfo" width="50px"/>
+    <easFont name="Tahoma" size="18" style="1"/>
+  </widget>
+  <widget actionPerformed="button5ActionPerformed" name="button5" parent="Form" prefHeight="50px" prefWidth="50px" text="+" type="ButtonDesignInfo">
+    <constraints height="50px" right="12px" top="175px" type="MarginConstraintsDesignInfo" width="50px"/>
+    <easFont name="Tahoma" size="18" style="1"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

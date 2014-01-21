@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="date1" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="93" typeName="TIMESTAMP"/>
+    <parameter description="" name="date2" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="93" typeName="TIMESTAMP"/>
+    <parameter description="" name="date3" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="93" typeName="TIMESTAMP"/>
+    <parameter description="" name="date4" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="93" typeName="TIMESTAMP"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="КИНОТЕАТРЫ" entityHeight="200" entityIconified="false" entityId="138740989242676" entityLocationX="172" entityLocationY="38" entityWidth="150" tableAlias="t2" tableName="КИНОТЕАТРЫ" tableSchemaName=""/>
+  <entity Title="ФИЛЬМЫ" entityHeight="200" entityIconified="false" entityId="138740991413271" entityLocationX="709" entityLocationY="35" entityWidth="150" tableAlias="t1" tableName="ФИЛЬМЫ" tableSchemaName=""/>
+  <entity Title="СЕАНСЫ" entityHeight="200" entityIconified="false" entityId="138740992523076" entityLocationX="516" entityLocationY="32" entityWidth="150" tableAlias="t3" tableName="СЕАНСЫ" tableSchemaName=""/>
+  <entity Title="ЗАЛЫ" entityHeight="200" entityIconified="false" entityId="138740996987073" entityLocationX="342" entityLocationY="38" entityWidth="150" tableAlias="t4" tableName="ЗАЛЫ" tableSchemaName=""/>
+  <relation leftEntityFieldName="КИНОТЕАТР" leftEntityId="138740996987073" rightEntityFieldName="КИНОТЕАТРЫ_ID" rightEntityId="138740989242676"/>
+  <relation leftEntityFieldName="ДАТА" leftEntityId="138740992523076" rightEntityId="-1" rightEntityParameterName="date3"/>
+  <relation leftEntityFieldName="ДАТА" leftEntityId="138740992523076" rightEntityId="-1" rightEntityParameterName="date2"/>
+  <relation leftEntityFieldName="ЗАЛ" leftEntityId="138740992523076" rightEntityFieldName="ЗАЛЫ_ID" rightEntityId="138740996987073"/>
+  <relation leftEntityFieldName="ДАТА" leftEntityId="138740992523076" rightEntityId="-1" rightEntityParameterName="date1"/>
+  <relation leftEntityFieldName="ДАТА" leftEntityId="138740992523076" rightEntityId="-1" rightEntityParameterName="date4"/>
+  <relation leftEntityFieldName="ФИЛЬМ" leftEntityId="138740992523076" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138740991413271"/>
+</datamodel>

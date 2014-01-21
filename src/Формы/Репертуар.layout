@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="215px" prefWidth="374px">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="24px" prefWidth="180px" text="Репертуар" type="LabelDesignInfo">
+    <constraints height="24px" left="96px" top="12px" type="MarginConstraintsDesignInfo" width="180px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget name="modelCombo" parent="Form" prefHeight="20px" prefWidth="240px" type="DbComboDesignInfo">
+    <valueField entityId="138704257672078" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+    <displayField entityId="138704257672078" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+    <datamodelElement entityId="138704257672078" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+    <constraints height="20px" left="72px" top="72px" type="MarginConstraintsDesignInfo" width="240px"/>
+  </widget>
+  <widget name="label1" parent="Form" prefHeight="14px" prefWidth="132px" text="Выберите кинотеатр:" type="LabelDesignInfo">
+    <constraints height="14px" left="132px" top="58px" type="MarginConstraintsDesignInfo" width="132px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="156px" text="Показать" type="ButtonDesignInfo">
+    <constraints height="23px" left="108px" top="120px" type="MarginConstraintsDesignInfo" width="156px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="23px" prefWidth="119px" text="Назад" type="ButtonDesignInfo">
+    <constraints bottom="12px" height="23px" right="17px" type="MarginConstraintsDesignInfo" width="119px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

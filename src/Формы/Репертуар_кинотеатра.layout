@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="308px" prefWidth="384px">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="24px" prefWidth="204px" text="Репертуар кинотеатра" type="LabelDesignInfo">
+    <constraints height="24px" left="96px" top="24px" type="MarginConstraintsDesignInfo" width="204px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget horizontalAlignment="0" name="label1" parent="Form" prefHeight="24px" prefWidth="168px" text="&quot;название&quot;" type="LabelDesignInfo">
+    <constraints height="24px" left="108px" top="60px" type="MarginConstraintsDesignInfo" width="168px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget deletable="false" editable="false" insertable="false" name="modelGrid" parent="Form" prefHeight="156px" prefWidth="288px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="Фильмы">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138739788713183" fieldName="НАЗВАНИЕ"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138739788713183" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="156px" left="48px" top="96px" type="MarginConstraintsDesignInfo" width="288px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="108px" text="ОК" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="144px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

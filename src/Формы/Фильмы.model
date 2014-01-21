@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="все_призы_фильмов" Title="Все_призы_фильмов" entityHeight="200" entityIconified="false" entityId="138711183660575" entityLocationX="533" entityLocationY="239" entityWidth="150" queryId="Все_призы_фильмов" tableName="" tableSchemaName=""/>
+  <entity Name="все_жанры_фильмов" Title="Все_жанры_фильмов" entityHeight="200" entityIconified="false" entityId="138710278371866" entityLocationX="514" entityLocationY="11" entityWidth="150" queryId="Все_жанры_фильмов" tableName="" tableSchemaName=""/>
+  <entity Name="все_актеры_фильмов" Title="Все_актеры_фильмов" entityHeight="200" entityIconified="false" entityId="138722896807339" entityLocationX="170" entityLocationY="244" entityWidth="150" queryId="Все_актеры_фильмов" tableName="" tableSchemaName=""/>
+  <entity Name="ФИЛЬМЫ" Title="ФИЛЬМЫ" entityHeight="200" entityIconified="false" entityId="138710583934874" entityLocationX="341" entityLocationY="241" entityWidth="150" tableName="ФИЛЬМЫ" tableSchemaName=""/>
+  <entity Name="все_призы" Title="Все_призы" entityHeight="200" entityIconified="false" entityId="138711182751433" entityLocationX="701" entityLocationY="239" entityWidth="150" queryId="Все_призы" tableName="" tableSchemaName=""/>
+  <entity Name="все_фильмы" Title="Все_фильмы" entityHeight="200" entityIconified="false" entityId="138654187174367" entityLocationX="176" entityLocationY="12" entityWidth="150" queryId="Все_фильмы" tableName="" tableSchemaName=""/>
+  <entity Name="все_актеры" Title="Все_актеры" entityHeight="200" entityIconified="false" entityId="138722895501380" entityLocationX="4" entityLocationY="244" entityWidth="150" queryId="Все_актеры" tableName="" tableSchemaName=""/>
+  <entity Name="все_жанры" Title="Все_жанры" entityHeight="200" entityIconified="false" entityId="138710278969862" entityLocationX="694" entityLocationY="11" entityWidth="150" queryId="Все_жанры" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="ФИЛЬМ" leftEntityId="138722896807339" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138654187174367"/>
+  <referenceRelation leftEntityFieldName="АКТЕР" leftEntityId="138722896807339" rightEntityFieldName="АКТЕРЫ_ID" rightEntityId="138722895501380"/>
+  <referenceRelation leftEntityFieldName="ФИЛЬМ" leftEntityId="138711183660575" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138654187174367"/>
+  <referenceRelation leftEntityFieldName="ФИЛЬМ" leftEntityId="138710278371866" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138710583934874"/>
+  <referenceRelation leftEntityFieldName="ФИЛЬМ" leftEntityId="138710278371866" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138654187174367"/>
+  <referenceRelation leftEntityFieldName="ЖАНР" leftEntityId="138710278371866" rightEntityFieldName="ЖАНР_ID" rightEntityId="138710278969862"/>
+  <referenceRelation leftEntityFieldName="ФИЛЬМ" leftEntityId="138722896807339" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138710583934874"/>
+  <referenceRelation leftEntityFieldName="ПРИЗ" leftEntityId="138711183660575" rightEntityFieldName="ПРИЗЫ_ID" rightEntityId="138711182751433"/>
+  <referenceRelation leftEntityFieldName="ФИЛЬМ" leftEntityId="138711183660575" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138710583934874"/>
+</datamodel>

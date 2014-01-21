@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?><context>
-  <run/>
-  <dbSettings name="" password="sasha" url="jdbc:h2:tcp://localhost:9092/~/cinema_db" user="sasha"/>
+  <run appElement="Главная"/>
+  <dbSettings name="" password="sasha" schema="PUBLIC" url="jdbc:h2:tcp://localhost:9092/~/cinema_db" user="sasha"/>
 </context>

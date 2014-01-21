@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="Actor_ID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="18" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="УЧАСТИЕ" entityHeight="200" entityIconified="false" entityId="138762394162214" entityLocationX="190" entityLocationY="30" entityWidth="150" tableAlias="t4" tableName="УЧАСТИЕ" tableSchemaName=""/>
+  <entity Title="КИНОТЕАТРЫ" entityHeight="200" entityIconified="false" entityId="138762383923292" entityLocationX="729" entityLocationY="36" entityWidth="150" tableAlias="t2" tableName="КИНОТЕАТРЫ" tableSchemaName=""/>
+  <entity Title="ФИЛЬМЫ" entityHeight="200" entityIconified="false" entityId="138762383097996" entityLocationX="363" entityLocationY="34" entityWidth="150" tableAlias="t1" tableName="ФИЛЬМЫ" tableSchemaName=""/>
+  <entity Title="СЕАНСЫ" entityHeight="200" entityIconified="false" entityId="138762384560736" entityLocationX="535" entityLocationY="14" entityWidth="150" tableAlias="t3" tableName="СЕАНСЫ" tableSchemaName=""/>
+  <entity Title="ЗАЛЫ" entityHeight="200" entityIconified="false" entityId="138762401296762" entityLocationX="538" entityLocationY="137" entityWidth="150" tableAlias="" tableName="ЗАЛЫ" tableSchemaName=""/>
+  <relation leftEntityFieldName="ЗАЛ" leftEntityId="138762384560736" rightEntityFieldName="ЗАЛЫ_ID" rightEntityId="138762401296762"/>
+  <relation leftEntityFieldName="ФИЛЬМ" leftEntityId="138762394162214" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138762383097996"/>
+  <relation leftEntityId="-1" leftEntityParameterName="Actor_ID" rightEntityFieldName="АКТЕР" rightEntityId="138762394162214"/>
+  <relation leftEntityFieldName="ФИЛЬМЫ_ID" leftEntityId="138762383097996" rightEntityFieldName="ФИЛЬМ" rightEntityId="138762384560736"/>
+  <relation leftEntityFieldName="КИНОТЕАТР" leftEntityId="138762401296762" rightEntityFieldName="КИНОТЕАТРЫ_ID" rightEntityId="138762383923292"/>
+</datamodel>

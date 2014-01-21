@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="cinema_ID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="18" type="3" typeName="DECIMAL"/>
+    <parameter description="" name="dayPrev" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="93" typeName="TIMESTAMP"/>
+    <parameter description="" name="dayNext" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="100" type="93" typeName="TIMESTAMP"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="ЗАЛЫ" entityHeight="200" entityIconified="false" entityId="138771448026250" entityLocationX="381" entityLocationY="28" entityWidth="150" tableAlias="" tableName="ЗАЛЫ" tableSchemaName=""/>
+  <entity Title="СЕАНСЫ" entityHeight="200" entityIconified="false" entityId="138771432915894" entityLocationX="204" entityLocationY="11" entityWidth="150" tableAlias="t1" tableName="СЕАНСЫ" tableSchemaName=""/>
+  <entity Title="ФИЛЬМЫ" entityHeight="200" entityIconified="false" entityId="138771530844945" entityLocationX="0" entityLocationY="209" entityWidth="150" tableAlias="t2" tableName="ФИЛЬМЫ" tableSchemaName=""/>
+  <entity Title="КИНОТЕАТРЫ" entityHeight="200" entityIconified="false" entityId="138771450310125" entityLocationX="551" entityLocationY="27" entityWidth="150" tableAlias="t" tableName="КИНОТЕАТРЫ" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="dayPrev" rightEntityFieldName="ДАТА" rightEntityId="138771432915894"/>
+  <relation leftEntityFieldName="ЗАЛ" leftEntityId="138771432915894" rightEntityFieldName="ЗАЛЫ_ID" rightEntityId="138771448026250"/>
+  <relation leftEntityFieldName="ФИЛЬМ" leftEntityId="138771432915894" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138771530844945"/>
+  <relation leftEntityFieldName="КИНОТЕАТР" leftEntityId="138771448026250" rightEntityFieldName="КИНОТЕАТРЫ_ID" rightEntityId="138771450310125"/>
+  <relation leftEntityFieldName="ДАТА" leftEntityId="138771432915894" rightEntityId="-1" rightEntityParameterName="dayNext"/>
+  <relation leftEntityFieldName="КИНОТЕАТРЫ_ID" leftEntityId="138771450310125" rightEntityId="-1" rightEntityParameterName="cinema_ID"/>
+</datamodel>

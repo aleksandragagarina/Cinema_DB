@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><layout backgroundColor="#ffffff" defaultCloseOperation="2" foregroundColor="#ff0000" name="Form" prefHeight="611px" prefWidth="706px">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="60px" prefWidth="252px" text="Главное меню" type="LabelDesignInfo">
+    <constraints height="60px" left="228px" top="12px" type="MarginConstraintsDesignInfo" width="252px"/>
+    <easFont name="Tahoma" size="24" style="1"/>
+  </widget>
+  <widget actionPerformed="btnAddFilmActionPerformed" name="btnAddFilm" parent="Form" prefHeight="60px" prefWidth="148px" text="Фильмы" type="ButtonDesignInfo">
+    <constraints bottom="27px" height="60px" left="395px" type="MarginConstraintsDesignInfo" width="148px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="60px" prefWidth="148px" text="Кинотеатры" type="ButtonDesignInfo">
+    <constraints bottom="101px" height="60px" left="395px" type="MarginConstraintsDesignInfo" width="148px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="60px" prefWidth="148px" text="Сеансы" type="ButtonDesignInfo">
+    <constraints bottom="27px" height="60px" left="182px" type="MarginConstraintsDesignInfo" width="148px"/>
+  </widget>
+  <widget actionPerformed="button2ActionPerformed" name="button2" parent="Form" prefHeight="60px" prefWidth="148px" text="Залы" type="ButtonDesignInfo">
+    <constraints bottom="101px" height="60px" left="182px" type="MarginConstraintsDesignInfo" width="148px"/>
+  </widget>
+  <widget actionPerformed="button3ActionPerformed" name="button3" parent="Form" prefHeight="35px" prefWidth="180px" text="Билеты" type="ButtonDesignInfo">
+    <constraints height="35px" left="263px" top="141px" type="MarginConstraintsDesignInfo" width="180px"/>
+  </widget>
+  <widget actionPerformed="button4ActionPerformed" name="button4" parent="Form" prefHeight="35px" prefWidth="190px" text="Сведения о кинотеатре" type="ButtonDesignInfo">
+    <constraints height="35px" left="22px" top="178px" type="MarginConstraintsDesignInfo" width="190px"/>
+  </widget>
+  <widget actionPerformed="button5ActionPerformed" name="button5" parent="Form" prefHeight="35px" prefWidth="190px" text="Сведения о фильме" type="ButtonDesignInfo">
+    <constraints height="35px" left="22px" top="288px" type="MarginConstraintsDesignInfo" width="190px"/>
+  </widget>
+  <widget actionPerformed="button6ActionPerformed" name="button6" parent="Form" prefHeight="35px" prefWidth="180px" text="Репертуар" type="ButtonDesignInfo">
+    <constraints height="35px" left="263px" top="335px" type="MarginConstraintsDesignInfo" width="180px"/>
+  </widget>
+  <widget actionPerformed="button7ActionPerformed" name="button7" parent="Form" prefHeight="35px" prefWidth="190px" text="Фильмы с наградами" type="ButtonDesignInfo">
+    <constraints height="35px" right="22px" top="176px" type="MarginConstraintsDesignInfo" width="190px"/>
+  </widget>
+  <widget actionPerformed="button8ActionPerformed" name="button8" parent="Form" prefHeight="35px" prefWidth="190px" text="Фильмы с участием актера" type="ButtonDesignInfo">
+    <constraints height="35px" right="22px" top="289px" type="MarginConstraintsDesignInfo" width="190px"/>
+  </widget>
+  <widget actionPerformed="button9ActionPerformed" name="button9" parent="Form" prefHeight="50px" prefWidth="271px" text="Количество свободных мест на сеанс" type="ButtonDesignInfo">
+    <constraints height="50px" left="216px" top="222px" type="MarginConstraintsDesignInfo" width="271px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="label1" parent="Form" prefHeight="31px" prefWidth="130px" text="Редактировать" type="LabelDesignInfo">
+    <constraints bottom="171px" height="31px" left="292px" type="MarginConstraintsDesignInfo" width="130px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget name="label2" parent="Form" prefHeight="20px" prefWidth="87px" text="Просмотр" type="LabelDesignInfo">
+    <constraints height="20px" left="314px" top="81px" type="MarginConstraintsDesignInfo" width="87px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget actionPerformed="button10ActionPerformed" name="button10" parent="Form" prefHeight="30px" prefWidth="104px" text="Выход" type="ButtonDesignInfo">
+    <constraints bottom="8px" height="30px" right="7px" type="MarginConstraintsDesignInfo" width="104px"/>
+  </widget>
+  <nonvisual name="jSeparator" prefHeight="0px" prefWidth="0px" type="MenuSeparatorDesignInfo"/>
+  <nonvisual name="jSeparator1" prefHeight="0px" prefWidth="0px" type="MenuSeparatorDesignInfo"/>
+  <nonvisual name="jSeparator2" prefHeight="0px" prefWidth="0px" type="MenuSeparatorDesignInfo"/>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

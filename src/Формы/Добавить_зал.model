@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="cinema_ID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="0" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="все_залы" Title="все_залы" entityHeight="200" entityIconified="false" entityId="138637128111060" entityLocationX="202" entityLocationY="18" entityWidth="150" queryId="все_залы" tableName="" tableSchemaName=""/>
+</datamodel>

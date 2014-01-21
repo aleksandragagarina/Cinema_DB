@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="filmID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="18" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="13" entityLocationY="13" entityWidth="150"/>
+  <entity Name="все_актеры_фильмов" Title="Все_актеры_фильмов" entityHeight="200" entityIconified="false" entityId="138722668630556" entityLocationX="563" entityLocationY="13" entityWidth="150" queryId="Все_актеры_фильмов" tableName="" tableSchemaName=""/>
+  <entity Name="название_фильма" Title="Название_фильма" entityHeight="200" entityIconified="false" entityId="138722670206285" entityLocationX="19" entityLocationY="217" entityWidth="150" queryId="Название_фильма" tableName="" tableSchemaName=""/>
+  <entity Name="актеры_фильма_1" Title="Актеры_фильма" entityHeight="200" entityIconified="false" entityId="138722655818773" entityLocationX="200" entityLocationY="11" entityWidth="150" queryId="Актеры_фильма_1" tableName="" tableSchemaName=""/>
+  <entity Name="все_актеры" Title="Все_актеры" entityHeight="200" entityIconified="false" entityId="138722657314133" entityLocationX="380" entityLocationY="19" entityWidth="150" queryId="Все_актеры" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="АКТЕР" leftEntityId="138722668630556" rightEntityFieldName="АКТЕРЫ_ID" rightEntityId="138722657314133"/>
+</datamodel>

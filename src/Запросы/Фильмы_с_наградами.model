@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="СЕАНСЫ" entityHeight="200" entityIconified="false" entityId="138740171074151" entityLocationX="199" entityLocationY="24" entityWidth="150" tableAlias="t3" tableName="СЕАНСЫ" tableSchemaName=""/>
+  <entity Title="ПРИЗЫ" entityHeight="200" entityIconified="false" entityId="138740425494351" entityLocationX="11" entityLocationY="7" entityWidth="150" tableAlias="t6" tableName="ПРИЗЫ" tableSchemaName=""/>
+  <entity Title="ФИЛЬМЫ" entityHeight="200" entityIconified="false" entityId="138740124624912" entityLocationX="384" entityLocationY="25" entityWidth="150" tableAlias="t1" tableName="ФИЛЬМЫ" tableSchemaName=""/>
+  <entity Title="ЗАЛЫ" entityHeight="200" entityIconified="false" entityId="138740171074178" entityLocationX="555" entityLocationY="27" entityWidth="150" tableAlias="t4" tableName="ЗАЛЫ" tableSchemaName=""/>
+  <entity Title="ПРИЗЫ_ФИЛЬМА" entityHeight="200" entityIconified="false" entityId="138740123431448" entityLocationX="31" entityLocationY="83" entityWidth="150" tableAlias="t5" tableName="ПРИЗЫ_ФИЛЬМА" tableSchemaName=""/>
+  <entity Title="КИНОТЕАТРЫ" entityHeight="200" entityIconified="false" entityId="138740097047246" entityLocationX="736" entityLocationY="8" entityWidth="150" tableAlias="t2" tableName="КИНОТЕАТРЫ" tableSchemaName=""/>
+  <relation leftEntityFieldName="КИНОТЕАТР" leftEntityId="138740171074178" rightEntityFieldName="КИНОТЕАТРЫ_ID" rightEntityId="138740097047246"/>
+  <relation leftEntityFieldName="ФИЛЬМ" leftEntityId="138740171074151" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138740124624912"/>
+  <relation leftEntityFieldName="ПРИЗ" leftEntityId="138740123431448" rightEntityFieldName="ПРИЗЫ_ID" rightEntityId="138740425494351"/>
+  <relation leftEntityFieldName="ФИЛЬМ" leftEntityId="138740123431448" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138740124624912"/>
+  <relation leftEntityFieldName="ЗАЛ" leftEntityId="138740171074151" rightEntityFieldName="ЗАЛЫ_ID" rightEntityId="138740171074178"/>
+</datamodel>

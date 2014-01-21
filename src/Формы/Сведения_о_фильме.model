@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="все_фильмы" Title="Все_фильмы" entityHeight="200" entityIconified="false" entityId="138723672889340" entityLocationX="186" entityLocationY="12" entityWidth="150" queryId="Все_фильмы" tableName="" tableSchemaName=""/>
+  <entity Name="ФИЛЬМЫ" Title="ФИЛЬМЫ" entityHeight="200" entityIconified="false" entityId="138723673588359" entityLocationX="361" entityLocationY="8" entityWidth="150" tableName="ФИЛЬМЫ" tableSchemaName=""/>
+</datamodel>

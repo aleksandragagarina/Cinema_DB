@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="film_ID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="18" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="7" entityWidth="150"/>
+  <entity Title="АКТЕРЫ" entityHeight="200" entityIconified="false" entityId="138722626263653" entityLocationX="402" entityLocationY="12" entityWidth="150" tableAlias="t2" tableName="АКТЕРЫ" tableSchemaName=""/>
+  <entity Title="УЧАСТИЕ" entityHeight="200" entityIconified="false" entityId="138722625934254" entityLocationX="203" entityLocationY="9" entityWidth="150" tableAlias="t1" tableName="УЧАСТИЕ" tableSchemaName=""/>
+  <relation leftEntityFieldName="ФИЛЬМ" leftEntityId="138722625934254" rightEntityId="-1" rightEntityParameterName="film_ID"/>
+  <relation leftEntityFieldName="АКТЕР" leftEntityId="138722625934254" rightEntityFieldName="АКТЕРЫ_ID" rightEntityId="138722626263653"/>
+</datamodel>

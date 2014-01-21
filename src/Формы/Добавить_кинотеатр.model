@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="cinema_ID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="18" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="15" entityLocationY="12" entityWidth="150"/>
+  <entity Name="все_кинотеатры" Title="все_кинотеатры" entityHeight="200" entityIconified="false" entityId="138636175201926" entityLocationX="362" entityLocationY="16" entityWidth="150" queryId="все_кинотеатры" tableName="" tableSchemaName=""/>
+  <entity Name="КИНОТЕАТРЫ" Title="КИНОТЕАТРЫ" entityHeight="200" entityIconified="false" entityId="138539716314950" entityLocationX="181" entityLocationY="13" entityWidth="150" tableName="КИНОТЕАТРЫ" tableSchemaName=""/>
+</datamodel>

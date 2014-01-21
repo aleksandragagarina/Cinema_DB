@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><layout alwaysOnTop="true" defaultCloseOperation="2" name="Form" prefHeight="177px" prefWidth="311px" resizable="false">
+  <widget name="label" parent="Form" prefHeight="24px" prefWidth="132px" text="Введите жанр:" type="LabelDesignInfo">
+    <constraints height="24px" left="96px" top="24px" type="MarginConstraintsDesignInfo" width="132px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget name="textField" parent="Form" prefHeight="20px" prefWidth="264px" type="TextFieldDesignInfo">
+    <constraints height="20px" left="24px" top="72px" type="MarginConstraintsDesignInfo" width="264px"/>
+    <easFont name="Tahoma"/>
+  </widget>
+  <widget actionPerformed="btnAddActionPerformed" name="btnAdd" parent="Form" prefHeight="23px" prefWidth="96px" text="Добавить" type="ButtonDesignInfo">
+    <constraints bottom="34px" height="23px" left="104px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

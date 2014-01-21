@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="398px" prefWidth="505px">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="24px" prefWidth="204px" text="Информация о фильме:" type="LabelDesignInfo">
+    <constraints height="24px" left="84px" top="12px" type="MarginConstraintsDesignInfo" width="204px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label1" parent="Form" prefHeight="14px" prefWidth="108px" text="Название:" type="LabelDesignInfo">
+    <constraints height="14px" left="12px" top="48px" type="MarginConstraintsDesignInfo" width="108px"/>
+    <easFont name="Tahoma" style="3"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label2" parent="Form" prefHeight="14px" prefWidth="108px" text="Режиссер:" type="LabelDesignInfo">
+    <constraints height="14px" left="12px" top="84px" type="MarginConstraintsDesignInfo" width="108px"/>
+    <easFont name="Tahoma" style="3"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label3" parent="Form" prefHeight="14px" prefWidth="108px" text="Оператор:" type="LabelDesignInfo">
+    <constraints height="14px" left="12px" top="120px" type="MarginConstraintsDesignInfo" width="108px"/>
+    <easFont name="Tahoma" style="3"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label4" parent="Form" prefHeight="14px" prefWidth="108px" text="Производство:" type="LabelDesignInfo">
+    <constraints height="14px" left="12px" top="156px" type="MarginConstraintsDesignInfo" width="108px"/>
+    <easFont name="Tahoma" style="3"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label5" parent="Form" prefHeight="14px" prefWidth="108px" text="Жанр:" type="LabelDesignInfo">
+    <constraints height="14px" left="12px" top="192px" type="MarginConstraintsDesignInfo" width="108px"/>
+    <easFont name="Tahoma" style="3"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label6" parent="Form" prefHeight="14px" prefWidth="108px" text="Длительность:" type="LabelDesignInfo">
+    <constraints height="14px" left="12px" top="264px" type="MarginConstraintsDesignInfo" width="108px"/>
+    <easFont name="Tahoma" style="3"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label7" parent="Form" prefHeight="14px" prefWidth="108px" text="Награды:" type="LabelDesignInfo">
+    <constraints bottom="90px" height="14px" left="12px" type="MarginConstraintsDesignInfo" width="108px"/>
+    <easFont name="Tahoma" style="3"/>
+  </widget>
+  <widget name="modelImage" parent="Form" prefHeight="156px" prefWidth="149px" type="DbImageDesignInfo">
+    <constraints height="156px" right="8px" top="12px" type="MarginConstraintsDesignInfo" width="149px"/>
+  </widget>
+  <widget name="label8" parent="Form" prefHeight="14px" prefWidth="192px" text="label8" type="LabelDesignInfo">
+    <constraints height="14px" left="132px" top="48px" type="MarginConstraintsDesignInfo" width="192px"/>
+    <easFont name="Tahoma" size="11" style="1"/>
+  </widget>
+  <widget name="label9" parent="Form" prefHeight="14px" prefWidth="192px" text="label9" type="LabelDesignInfo">
+    <constraints height="14px" left="132px" top="84px" type="MarginConstraintsDesignInfo" width="192px"/>
+    <easFont name="Tahoma" size="11" style="1"/>
+  </widget>
+  <widget name="label10" parent="Form" prefHeight="14px" prefWidth="192px" text="label10" type="LabelDesignInfo">
+    <constraints height="14px" left="132px" top="120px" type="MarginConstraintsDesignInfo" width="192px"/>
+    <easFont name="Tahoma" size="11" style="1"/>
+  </widget>
+  <widget name="label11" parent="Form" prefHeight="14px" prefWidth="192px" text="label11" type="LabelDesignInfo">
+    <constraints height="14px" left="132px" top="156px" type="MarginConstraintsDesignInfo" width="192px"/>
+    <easFont name="Tahoma" size="11" style="1"/>
+  </widget>
+  <widget name="label12" parent="Form" prefHeight="14px" prefWidth="360px" text="label12" type="LabelDesignInfo">
+    <constraints height="14px" left="132px" top="192px" type="MarginConstraintsDesignInfo" width="360px"/>
+    <easFont name="Tahoma" size="11" style="1"/>
+  </widget>
+  <widget name="label13" parent="Form" prefHeight="14px" prefWidth="360px" text="label13" type="LabelDesignInfo">
+    <constraints height="14px" left="132px" top="228px" type="MarginConstraintsDesignInfo" width="360px"/>
+    <easFont name="Tahoma" size="11" style="1"/>
+  </widget>
+  <widget name="label14" parent="Form" prefHeight="14px" prefWidth="360px" text="label14" type="LabelDesignInfo">
+    <constraints height="14px" left="132px" top="264px" type="MarginConstraintsDesignInfo" width="360px"/>
+    <easFont name="Tahoma" size="11" style="1"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="156px" text="ОК" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" left="180px" type="MarginConstraintsDesignInfo" width="156px"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label15" parent="Form" prefHeight="14px" prefWidth="96px" text="Прокат:" type="LabelDesignInfo">
+    <constraints bottom="52px" height="14px" left="24px" type="MarginConstraintsDesignInfo" width="96px"/>
+    <easFont name="Tahoma" style="3"/>
+  </widget>
+  <widget name="label16" parent="Form" prefHeight="14px" prefWidth="348px" text="label16" type="LabelDesignInfo">
+    <constraints bottom="89px" height="14px" left="132px" type="MarginConstraintsDesignInfo" width="348px"/>
+    <easFont name="Tahoma" size="11" style="1"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label17" parent="Form" prefHeight="14px" prefWidth="108px" text="Актеры:" type="LabelDesignInfo">
+    <constraints height="14px" left="12px" top="228px" type="MarginConstraintsDesignInfo" width="108px"/>
+    <easFont name="Tahoma" style="3"/>
+  </widget>
+  <widget name="label18" parent="Form" prefHeight="14px" prefWidth="360px" text="label18" type="LabelDesignInfo">
+    <constraints bottom="52px" height="14px" left="132px" type="MarginConstraintsDesignInfo" width="360px"/>
+    <easFont name="Tahoma" size="11" style="1"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

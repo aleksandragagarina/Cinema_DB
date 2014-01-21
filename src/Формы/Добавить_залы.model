@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="все_залы" Title="все_залы" entityHeight="200" entityIconified="false" entityId="138637129362332" entityLocationX="398" entityLocationY="14" entityWidth="150" queryId="все_залы" tableName="" tableSchemaName=""/>
+  <entity Name="КИНОТЕАТРЫ" Title="КИНОТЕАТРЫ" entityHeight="200" entityIconified="false" entityId="138619309489749" entityLocationX="576" entityLocationY="15" entityWidth="150" tableName="КИНОТЕАТРЫ" tableSchemaName=""/>
+  <entity Name="все_кинотеатры" Title="все_кинотеатры" entityHeight="200" entityIconified="false" entityId="138645964134714" entityLocationX="401" entityLocationY="223" entityWidth="150" queryId="все_кинотеатры" tableName="" tableSchemaName=""/>
+  <entity Name="название_кинотеатра" Title="Название_кинотеатра" entityHeight="200" entityIconified="false" entityId="138649838972270" entityLocationX="10" entityLocationY="221" entityWidth="150" queryId="Название_кинотеатра" tableName="" tableSchemaName=""/>
+  <entity Name="инфо_залы" Title="инфо_залы" entityHeight="200" entityIconified="false" entityId="138619092722314" entityLocationX="204" entityLocationY="16" entityWidth="144" queryId="инфо_залы" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="КИНОТЕАТР" leftEntityId="138637129362332" rightEntityFieldName="КИНОТЕАТРЫ_ID" rightEntityId="138619309489749"/>
+  <referenceRelation leftEntityFieldName="КИНОТЕАТР" leftEntityId="138637129362332" rightEntityFieldName="КИНОТЕАТРЫ_ID" rightEntityId="138645964134714"/>
+</datamodel>

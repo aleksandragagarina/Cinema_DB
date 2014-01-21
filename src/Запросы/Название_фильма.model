@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="film_ID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="20" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="ФИЛЬМЫ" entityHeight="200" entityIconified="false" entityId="138705673607264" entityLocationX="205" entityLocationY="-7" entityWidth="150" tableAlias="" tableName="ФИЛЬМЫ" tableSchemaName=""/>
+</datamodel>

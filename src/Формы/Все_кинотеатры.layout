@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="332px" prefWidth="539px">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="36px" prefWidth="180px" text="Все кинотеатры" type="LabelDesignInfo">
+    <constraints height="36px" left="156px" top="12px" type="MarginConstraintsDesignInfo" width="180px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="129px" text="Добавить" type="ButtonDesignInfo">
+    <constraints height="23px" left="60px" top="48px" type="MarginConstraintsDesignInfo" width="129px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="23px" prefWidth="129px" text="Удалить" type="ButtonDesignInfo">
+    <constraints height="23px" left="337px" top="48px" type="MarginConstraintsDesignInfo" width="129px"/>
+  </widget>
+  <widget actionPerformed="button2ActionPerformed" name="button2" parent="Form" prefHeight="36px" prefWidth="48px" text="-" type="ButtonDesignInfo">
+    <constraints height="36px" right="16px" top="96px" type="MarginConstraintsDesignInfo" width="48px"/>
+    <easFont name="Tahoma" size="18" style="1"/>
+  </widget>
+  <widget actionPerformed="button3ActionPerformed" name="button3" parent="Form" prefHeight="36px" prefWidth="48px" text="+" type="ButtonDesignInfo">
+    <constraints height="36px" right="16px" top="144px" type="MarginConstraintsDesignInfo" width="48px"/>
+    <easFont name="Tahoma" size="18"/>
+  </widget>
+  <widget actionPerformed="button4ActionPerformed" name="button4" parent="Form" prefHeight="23px" prefWidth="95px" text="Назад" type="ButtonDesignInfo">
+    <constraints bottom="9px" height="23px" right="17px" type="MarginConstraintsDesignInfo" width="95px"/>
+  </widget>
+  <widget deletable="false" editable="false" insertable="false" name="modelGrid" parent="Form" prefHeight="192px" prefWidth="427px" type="DbGridDesignInfo">
+    <treeDesignInfo/>
+    <column name="Название">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138747435029379" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Адрес">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138747435029379" fieldName="АДРЕС"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <column name="Категория">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <columnsDisplayField/>
+      <datamodelElement entityId="138747435029379" fieldName="КАТЕГОРИЯ"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138747435029379" field="false"/>
+    </rowsColumnsDesignInfo>
+    <constraints height="192px" left="36px" top="84px" type="MarginConstraintsDesignInfo" width="427px"/>
+  </widget>
+  <widget actionPerformed="button5ActionPerformed" name="button5" parent="Form" prefHeight="23px" prefWidth="129px" text="Редактировать" type="ButtonDesignInfo">
+    <constraints height="23px" left="198px" top="48px" type="MarginConstraintsDesignInfo" width="129px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

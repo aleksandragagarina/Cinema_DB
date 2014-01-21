@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="344px" prefWidth="400px">
+  <widget name="label" parent="Form" prefHeight="14px" prefWidth="150px" text="Выберите актера" type="LabelDesignInfo">
+    <constraints height="14px" left="117px" top="15px" type="MarginConstraintsDesignInfo" width="150px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget handleFunction="modelComboOnRender" name="modelCombo" parent="Form" prefHeight="20px" prefWidth="244px" type="DbComboDesignInfo">
+    <valueField entityId="138762460014392" fieldName="Полное_Имя"/>
+    <displayField entityId="138762460014392" fieldName="Полное_Имя"/>
+    <datamodelElement entityId="138762460014392" fieldName="Полное_Имя"/>
+    <constraints height="20px" left="66px" top="41px" type="MarginConstraintsDesignInfo" width="244px"/>
+  </widget>
+  <widget deletable="false" editable="false" insertable="false" name="modelGrid" parent="Form" prefHeight="198px" prefWidth="354px" type="DbGridDesignInfo">
+    <column name="Фильм">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138762478420442" fieldName="НАЗВАНИЕ"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="Кинотеатр">
+      <controlInfo classHint="DbLabelDesignInfo" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138762478420442" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <column name="Сеанс">
+      <controlInfo classHint="DbDateDesignInfo" dateFormat="dd.MM.yyyy HH:mm:ss" name="view" prefHeight="0px" prefWidth="0px"/>
+      <datamodelElement entityId="138762478420442" fieldName="ДАТА"/>
+      <columnsDatasource/>
+      <cellsDatasource/>
+      <cellDesignInfo>
+        <rowsKeyField/>
+        <columnsKeyField/>
+        <cellValueField/>
+      </cellDesignInfo>
+      <headerStyle>
+        <nativeFont name="Tahoma" size="11"/>
+      </headerStyle>
+      <columnsDisplayField/>
+    </column>
+    <rowsColumnsDesignInfo>
+      <rowsDatasource entityId="138762478420442" field="false"/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+    <constraints height="198px" left="22px" top="77px" type="MarginConstraintsDesignInfo" width="354px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="91px" text="ОК" type="ButtonDesignInfo">
+    <constraints bottom="19px" height="23px" left="144px" type="MarginConstraintsDesignInfo" width="91px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

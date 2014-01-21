@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="250px" prefWidth="412px">
+  <widget horizontalAlignment="4" name="label" parent="Form" prefHeight="24px" prefWidth="136px" text="Название кинотеатра: " type="LabelDesignInfo">
+    <constraints height="24px" left="0px" top="48px" type="MarginConstraintsDesignInfo" width="136px"/>
+  </widget>
+  <widget name="label1" parent="Form" prefHeight="24px" prefWidth="132px" text="Кинотеатры" type="LabelDesignInfo">
+    <constraints height="24px" left="144px" top="12px" type="MarginConstraintsDesignInfo" width="132px"/>
+    <easFont name="Tahoma" size="18" style="1"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label2" parent="Form" prefHeight="14px" prefWidth="108px" text="Адрес:" type="LabelDesignInfo">
+    <constraints height="14px" left="24px" top="75px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label3" parent="Form" prefHeight="14px" prefWidth="108px" text="Категория:" type="LabelDesignInfo">
+    <constraints height="14px" left="24px" top="96px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="101px" text="Отмена" type="ButtonDesignInfo">
+    <constraints bottom="13px" height="23px" right="11px" type="MarginConstraintsDesignInfo" width="101px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="23px" prefWidth="95px" text="OK" type="ButtonDesignInfo">
+    <constraints bottom="13px" height="23px" left="192px" type="MarginConstraintsDesignInfo" width="95px"/>
+  </widget>
+  <widget actionPerformed="button3ActionPerformed" name="button3" parent="Form" prefHeight="23px" prefWidth="168px" text="Добавить кинотеатр" type="ButtonDesignInfo">
+    <constraints height="23px" left="120px" top="132px" type="MarginConstraintsDesignInfo" width="168px"/>
+  </widget>
+  <widget actionPerformed="btnAddZalActionPerformed" name="btnAddZal" parent="Form" prefHeight="23px" prefWidth="168px" text="Добавить залы" type="ButtonDesignInfo">
+    <constraints bottom="59px" height="23px" left="120px" type="MarginConstraintsDesignInfo" width="168px"/>
+  </widget>
+  <widget name="textField" parent="Form" prefHeight="20px" prefWidth="240px" type="TextFieldDesignInfo">
+    <constraints height="20px" left="144px" top="48px" type="MarginConstraintsDesignInfo" width="240px"/>
+  </widget>
+  <widget name="textField1" parent="Form" prefHeight="20px" prefWidth="240px" type="TextFieldDesignInfo">
+    <constraints height="20px" left="144px" top="72px" type="MarginConstraintsDesignInfo" width="240px"/>
+  </widget>
+  <widget actionPerformed="textField2ActionPerformed" name="textField2" parent="Form" prefHeight="20px" prefWidth="240px" type="TextFieldDesignInfo">
+    <constraints height="20px" left="144px" top="96px" type="MarginConstraintsDesignInfo" width="240px"/>
+  </widget>
+  <nonvisual name="modelSpin" prefHeight="0px" prefWidth="0px" type="DbSpinDesignInfo"/>
+  <nonvisual name="jSeparator" prefHeight="0px" prefWidth="0px" type="MenuSeparatorDesignInfo"/>
+  <nonvisual name="jSeparator1" prefHeight="0px" prefWidth="0px" type="MenuSeparatorDesignInfo"/>
+  <nonvisual name="jSeparator2" prefHeight="0px" prefWidth="0px" type="MenuSeparatorDesignInfo"/>
+  <nonvisual name="modelGrid" prefHeight="0px" prefWidth="0px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+  </nonvisual>
+  <nonvisual name="modelGrid1" prefHeight="0px" prefWidth="0px" type="DbGridDesignInfo">
+    <rowsColumnsDesignInfo>
+      <rowsDatasource/>
+    </rowsColumnsDesignInfo>
+    <treeDesignInfo/>
+  </nonvisual>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

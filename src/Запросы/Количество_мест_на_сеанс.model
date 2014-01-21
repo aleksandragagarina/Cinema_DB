@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parameters>
+    <parameter description="" name="cinema_ID" nullable="true" parameterMode="1" precision="0" scale="0" selectionForm="null" signed="true" size="18" type="3" typeName="DECIMAL"/>
+  </parameters>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="8" entityLocationY="7" entityWidth="150"/>
+  <entity Title="ФИЛЬМЫ" entityHeight="200" entityIconified="false" entityId="138740691427044" entityLocationX="192" entityLocationY="9" entityWidth="150" tableAlias="t1" tableName="ФИЛЬМЫ" tableSchemaName=""/>
+  <entity Title="СЕАНСЫ" entityHeight="200" entityIconified="false" entityId="138740678883160" entityLocationX="404" entityLocationY="19" entityWidth="150" tableAlias="t2" tableName="СЕАНСЫ" tableSchemaName=""/>
+  <entity Title="ЗАЛЫ" entityHeight="200" entityIconified="false" entityId="138740692747990" entityLocationX="583" entityLocationY="19" entityWidth="150" tableAlias="t3" tableName="ЗАЛЫ" tableSchemaName=""/>
+  <relation leftEntityId="-1" leftEntityParameterName="cinema_ID" rightEntityFieldName="КИНОТЕАТР" rightEntityId="138740692747990"/>
+  <relation leftEntityFieldName="ЗАЛ" leftEntityId="138740678883160" rightEntityFieldName="ЗАЛЫ_ID" rightEntityId="138740692747990"/>
+  <relation leftEntityFieldName="ФИЛЬМ" leftEntityId="138740678883160" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138740691427044"/>
+</datamodel>

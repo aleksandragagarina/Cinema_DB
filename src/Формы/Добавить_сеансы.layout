@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="338px" prefWidth="400px">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="14px" prefWidth="168px" text="Добавить сеанс" type="LabelDesignInfo">
+    <constraints height="14px" left="108px" top="12px" type="MarginConstraintsDesignInfo" width="168px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget handleFunction="modelComboOnRender" name="modelCombo" parent="Form" prefHeight="20px" prefWidth="216px" type="DbComboDesignInfo">
+    <valueField entityId="138679763694671" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+    <displayField entityId="138679763694671" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+    <datamodelElement entityId="138723033448113" fieldName="НАЗВАНИЕ_КИНОТЕАТРА"/>
+    <constraints height="20px" left="84px" top="48px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget name="label1" parent="Form" prefHeight="14px" prefWidth="136px" text="Выберите кинотеатр:" type="LabelDesignInfo">
+    <constraints height="14px" left="140px" top="34px" type="MarginConstraintsDesignInfo" width="136px"/>
+  </widget>
+  <widget name="modelCombo1" parent="Form" prefHeight="20px" prefWidth="216px" type="DbComboDesignInfo">
+    <valueField entityId="138679765948662" fieldName="НАИМЕНОВАНИЕ"/>
+    <displayField entityId="138679765948662" fieldName="НАИМЕНОВАНИЕ"/>
+    <datamodelElement entityId="138679765948662" fieldName="НАИМЕНОВАНИЕ"/>
+    <constraints height="20px" left="84px" top="96px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="label2" parent="Form" prefHeight="14px" prefWidth="108px" text="Выберите зал:" type="LabelDesignInfo">
+    <constraints height="14px" left="140px" top="82px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget name="modelCombo2" parent="Form" prefHeight="20px" prefWidth="216px" type="DbComboDesignInfo">
+    <valueField entityId="138679778376969" fieldName="НАЗВАНИЕ"/>
+    <displayField entityId="138679778376969" fieldName="НАЗВАНИЕ"/>
+    <datamodelElement entityId="138723037970308" fieldName="НАЗВАНИЕ"/>
+    <constraints height="20px" left="84px" top="144px" type="MarginConstraintsDesignInfo" width="216px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="label3" parent="Form" prefHeight="14px" prefWidth="108px" text="Выберите фильм:" type="LabelDesignInfo">
+    <constraints height="14px" left="138px" top="130px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="120px" text="Добавить" type="ButtonDesignInfo">
+    <constraints bottom="10px" height="23px" left="132px" type="MarginConstraintsDesignInfo" width="120px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="23px" prefWidth="95px" text="Отмена" type="ButtonDesignInfo">
+    <constraints bottom="10px" height="23px" right="17px" type="MarginConstraintsDesignInfo" width="95px"/>
+  </widget>
+  <widget name="label4" parent="Form" prefHeight="14px" prefWidth="144px" text="Введите дату сеанса:" type="LabelDesignInfo">
+    <constraints height="14px" left="24px" top="180px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label5" parent="Form" prefHeight="14px" prefWidth="48px" text="День:" type="LabelDesignInfo">
+    <constraints height="14px" left="108px" top="204px" type="MarginConstraintsDesignInfo" width="48px"/>
+  </widget>
+  <widget format="#,##0" name="formattedField" parent="Form" prefHeight="15px" prefWidth="40px" type="FormattedFieldDesignInfo" valueType="0">
+    <constraints height="15px" left="120px" top="219px" type="MarginConstraintsDesignInfo" width="40px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="label6" parent="Form" prefHeight="14px" prefWidth="48px" text="Месяц:" type="LabelDesignInfo">
+    <constraints height="14px" left="176px" top="204px" type="MarginConstraintsDesignInfo" width="48px"/>
+  </widget>
+  <widget format="#,##0" name="formattedField1" parent="Form" prefHeight="15px" prefWidth="40px" type="FormattedFieldDesignInfo" valueType="0">
+    <constraints height="15px" left="180px" top="219px" type="MarginConstraintsDesignInfo" width="40px"/>
+  </widget>
+  <widget horizontalAlignment="0" name="label7" parent="Form" prefHeight="14px" prefWidth="28px" text="Год:" type="LabelDesignInfo">
+    <constraints height="14px" left="260px" top="204px" type="MarginConstraintsDesignInfo" width="28px"/>
+  </widget>
+  <widget format="#,##0" name="formattedField2" parent="Form" prefHeight="15px" prefWidth="60px" type="FormattedFieldDesignInfo" valueType="0">
+    <constraints height="15px" left="244px" top="219px" type="MarginConstraintsDesignInfo" width="60px"/>
+  </widget>
+  <widget name="label8" parent="Form" prefHeight="14px" prefWidth="144px" text="Введите время сеанса:" type="LabelDesignInfo">
+    <constraints bottom="87px" height="14px" left="24px" type="MarginConstraintsDesignInfo" width="144px"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label9" parent="Form" prefHeight="14px" prefWidth="48px" text="Часы:" type="LabelDesignInfo">
+    <constraints bottom="64px" height="14px" left="132px" type="MarginConstraintsDesignInfo" width="48px"/>
+  </widget>
+  <widget format="#,##0" name="formattedField3" parent="Form" prefHeight="15px" prefWidth="40px" type="FormattedFieldDesignInfo" valueType="0">
+    <constraints bottom="51px" height="15px" left="144px" type="MarginConstraintsDesignInfo" width="40px"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label10" parent="Form" prefHeight="14px" prefWidth="48px" text="Минуты:" type="LabelDesignInfo">
+    <constraints bottom="64px" height="14px" left="200px" type="MarginConstraintsDesignInfo" width="48px"/>
+  </widget>
+  <widget format="#,##0" name="formattedField4" parent="Form" prefHeight="15px" prefWidth="40px" type="FormattedFieldDesignInfo" valueType="0">
+    <constraints bottom="51px" height="15px" left="204px" type="MarginConstraintsDesignInfo" width="40px"/>
+  </widget>
+  <widget name="label11" parent="Form" prefHeight="14px" prefWidth="12px" text="." type="LabelDesignInfo">
+    <constraints height="14px" left="168px" top="220px" type="MarginConstraintsDesignInfo" width="12px"/>
+    <easFont name="Tahoma" style="1"/>
+  </widget>
+  <widget name="label12" parent="Form" prefHeight="14px" prefWidth="12px" text="." type="LabelDesignInfo">
+    <constraints height="14px" left="228px" top="220px" type="MarginConstraintsDesignInfo" width="12px"/>
+    <easFont name="Tahoma" style="1"/>
+  </widget>
+  <widget name="label13" parent="Form" prefHeight="14px" prefWidth="24px" text=":" type="LabelDesignInfo">
+    <constraints bottom="52px" height="14px" left="192px" type="MarginConstraintsDesignInfo" width="24px"/>
+    <easFont name="Tahoma" style="1"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

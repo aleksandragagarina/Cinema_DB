@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="все_сеансы" Title="Все_сеансы" entityHeight="200" entityIconified="false" entityId="138723198118847" entityLocationX="557" entityLocationY="226" entityWidth="150" queryId="Все_сеансы" tableName="" tableSchemaName=""/>
+  <entity Name="все_кинотеатры" Title="все_кинотеатры" entityHeight="200" entityIconified="false" entityId="138723033448113" entityLocationX="382" entityLocationY="227" entityWidth="150" queryId="все_кинотеатры" tableName="" tableSchemaName=""/>
+  <entity Name="названия_фильмов" Title="Названия_фильмов" entityHeight="200" entityIconified="false" entityId="138679778376969" entityLocationX="544" entityLocationY="14" entityWidth="150" queryId="Названия_фильмов" tableName="" tableSchemaName=""/>
+  <entity Name="название_кинотеатра" Title="Название_кинотеатра" entityHeight="200" entityIconified="false" entityId="138679763694671" entityLocationX="193" entityLocationY="13" entityWidth="150" queryId="Название_кинотеатра" tableName="" tableSchemaName=""/>
+  <entity Name="все_залы" Title="все_залы" entityHeight="200" entityIconified="false" entityId="138762296891340" entityLocationX="740" entityLocationY="14" entityWidth="150" queryId="все_залы" tableName="" tableSchemaName=""/>
+  <entity Name="все_фильмы" Title="Все_фильмы" entityHeight="200" entityIconified="false" entityId="138723037970308" entityLocationX="199" entityLocationY="223" entityWidth="150" queryId="Все_фильмы" tableName="" tableSchemaName=""/>
+  <entity Name="СЕАНСЫ" Title="СЕАНСЫ" entityHeight="200" entityIconified="false" entityId="138704484940790" entityLocationX="6" entityLocationY="220" entityWidth="150" tableName="СЕАНСЫ" tableSchemaName=""/>
+  <entity Name="название_зала" Title="Название_зала" entityHeight="200" entityIconified="false" entityId="138679765948662" entityLocationX="373" entityLocationY="13" entityWidth="150" queryId="Название_зала" tableName="" tableSchemaName=""/>
+  <referenceRelation leftEntityFieldName="ФИЛЬМ" leftEntityId="138723198118847" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138723037970308"/>
+  <referenceRelation leftEntityFieldName="ЗАЛ" leftEntityId="138704484940790" rightEntityFieldName="ЗАЛЫ_ID" rightEntityId="138762296891340"/>
+  <referenceRelation leftEntityFieldName="ФИЛЬМ" leftEntityId="138704484940790" rightEntityFieldName="ФИЛЬМЫ_ID" rightEntityId="138723037970308"/>
+  <referenceRelation leftEntityFieldName="КИНОТЕАТР" leftEntityId="138762296891340" rightEntityFieldName="КИНОТЕАТРЫ_ID" rightEntityId="138723033448113"/>
+  <referenceRelation leftEntityFieldName="ЗАЛ" leftEntityId="138723198118847" rightEntityFieldName="ЗАЛЫ_ID" rightEntityId="138762296891340"/>
+</datamodel>

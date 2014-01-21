@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="179px" prefWidth="400px">
+  <widget horizontalAlignment="0" name="label" parent="Form" prefHeight="36px" prefWidth="216px" text="Введите актера:" type="LabelDesignInfo">
+    <constraints height="36px" left="96px" top="0px" type="MarginConstraintsDesignInfo" width="216px"/>
+    <easFont name="Tahoma" size="14" style="1"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label1" parent="Form" prefHeight="24px" prefWidth="96px" text="Имя:" type="LabelDesignInfo">
+    <constraints height="24px" left="36px" top="46px" type="MarginConstraintsDesignInfo" width="96px"/>
+    <easFont name="Tahoma" size="14"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label2" parent="Form" prefHeight="14px" prefWidth="96px" text="Фамилия:" type="LabelDesignInfo">
+    <constraints height="14px" left="36px" top="74px" type="MarginConstraintsDesignInfo" width="96px"/>
+    <easFont name="Tahoma" size="14"/>
+  </widget>
+  <widget name="textField" parent="Form" prefHeight="20px" prefWidth="204px" type="TextFieldDesignInfo">
+    <constraints height="20px" left="144px" top="74px" type="MarginConstraintsDesignInfo" width="204px"/>
+  </widget>
+  <widget name="textField1" parent="Form" prefHeight="20px" prefWidth="204px" type="TextFieldDesignInfo">
+    <constraints height="20px" left="144px" top="48px" type="MarginConstraintsDesignInfo" width="204px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="96px" text="Добавить" type="ButtonDesignInfo">
+    <constraints height="23px" left="156px" top="132px" type="MarginConstraintsDesignInfo" width="96px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>

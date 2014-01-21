@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><datamodel>
+  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="12" entityLocationY="12" entityWidth="150"/>
+  <entity Name="все_кинотеатры" Title="все_кинотеатры" entityHeight="200" entityIconified="false" entityId="138766726216096" entityLocationX="523" entityLocationY="24" entityWidth="150" queryId="все_кинотеатры" tableName="" tableSchemaName=""/>
+  <entity Name="название_кинотеатра" Title="Название_кинотеатра" entityHeight="200" entityIconified="false" entityId="138704257672078" entityLocationX="265" entityLocationY="26" entityWidth="150" queryId="Название_кинотеатра" tableName="" tableSchemaName=""/>
+</datamodel>

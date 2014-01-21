@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><layout defaultCloseOperation="2" name="Form" prefHeight="275px" prefWidth="400px">
+  <widget name="label" parent="Form" prefHeight="24px" prefWidth="156px" text="Добавить зал:" type="LabelDesignInfo">
+    <constraints height="24px" left="132px" top="12px" type="MarginConstraintsDesignInfo" width="156px"/>
+    <easFont name="Tahoma" size="18" style="1"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label1" parent="Form" prefHeight="14px" prefWidth="84px" text="Название:" type="LabelDesignInfo">
+    <constraints height="14px" left="48px" top="72px" type="MarginConstraintsDesignInfo" width="84px"/>
+    <easFont name="Tahoma" size="14"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label2" parent="Form" prefHeight="14px" prefWidth="108px" text="Вместимость:" type="LabelDesignInfo">
+    <constraints height="14px" left="24px" top="120px" type="MarginConstraintsDesignInfo" width="108px"/>
+    <easFont name="Tahoma" size="14"/>
+  </widget>
+  <widget horizontalAlignment="4" name="label3" parent="Form" prefHeight="14px" prefWidth="84px" text="Категория:" type="LabelDesignInfo">
+    <constraints height="14px" left="48px" top="168px" type="MarginConstraintsDesignInfo" width="84px"/>
+    <easFont name="Tahoma" size="14"/>
+  </widget>
+  <widget name="textField" parent="Form" prefHeight="20px" prefWidth="192px" type="TextFieldDesignInfo">
+    <constraints height="20px" left="156px" top="72px" type="MarginConstraintsDesignInfo" width="192px"/>
+  </widget>
+  <widget name="textField1" parent="Form" prefHeight="20px" prefWidth="192px" type="TextFieldDesignInfo">
+    <constraints height="20px" left="156px" top="168px" type="MarginConstraintsDesignInfo" width="192px"/>
+  </widget>
+  <widget format="#,##0" name="formattedField" parent="Form" prefHeight="20px" prefWidth="192px" type="FormattedFieldDesignInfo" valueType="0">
+    <constraints height="20px" left="156px" top="120px" type="MarginConstraintsDesignInfo" width="192px"/>
+  </widget>
+  <widget actionPerformed="buttonActionPerformed" name="button" parent="Form" prefHeight="23px" prefWidth="108px" text="Добавить" type="ButtonDesignInfo">
+    <constraints bottom="13px" height="23px" left="144px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="button1ActionPerformed" name="button1" parent="Form" prefHeight="23px" prefWidth="108px" text="Отмена" type="ButtonDesignInfo">
+    <constraints bottom="13px" height="23px" right="17px" type="MarginConstraintsDesignInfo" width="108px"/>
+  </widget>
+  <widget actionPerformed="button2ActionPerformed" name="button2" parent="Form" prefHeight="23px" prefWidth="104px" text="Все залы" type="ButtonDesignInfo">
+    <constraints bottom="13px" height="23px" left="18px" type="MarginConstraintsDesignInfo" width="104px"/>
+  </widget>
+  <layout type="MarginLayoutDesignInfo"/>
+</layout>
