@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><datamodel>
-  <parametersEntity entityHeight="200" entityIconified="false" entityLocationX="-154" entityLocationY="71" entityWidth="150"/>
-  <entity Name="КИНОТЕАТРЫ" Title="КИНОТЕАТРЫ" entityHeight="200" entityIconified="false" entityId="138323402901929" entityLocationX="10" entityLocationY="20" entityWidth="150" tableName="КИНОТЕАТРЫ" tableSchemaName=""/>
-</datamodel>

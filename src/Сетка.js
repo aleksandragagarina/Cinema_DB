@@ -1,5 +1,0 @@
-/**
- * 
- * @author SAMSUNG
- * @name Сетка
- */
